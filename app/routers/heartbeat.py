@@ -3,7 +3,7 @@ from fastapi.responses import JSONResponse
 
 router = APIRouter(
     prefix="/heartbeat",
-    include_in_schema=False # 这个路由不会出现在文档中
+    include_in_schema=False # hide from OpenAPI documentation
 )
 
 @router.get("/readiness", status_code=status.HTTP_200_OK)
