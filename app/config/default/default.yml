@@ -1,0 +1,5 @@
+app:
+  title: "App"
+  description: "App"
+  version: "0.0.1"
+  debug: true
