@@ -13,8 +13,8 @@
 ## 安装
 
 ```bash
-git clone https://github.com/xmanlucian/fastapi-template.git
-cd fastapi-template
+git clone https://github.com/xmanlucian/Fastapi_Template.git
+cd Fastapi_Template
 pip install -r requirements.txt
 ```
 
