@@ -11,6 +11,11 @@ This is a FastAPI template repository designed to help developers quickly set up
 - **High Performance**: Leverages FastAPI's high-performance features
 - **Easy to Extend**: Modular design for easy extension and maintenance
 
+
+## Create Your Own Repository
+
+Click [Use this template](https://github.com/xmanlucian/Fastapi_Template/generate) to create your own repository.
+
 ## Installation
 
 ```bash
@@ -32,24 +37,35 @@ pip install -r requirements.txt
 ## Project Structure
 
 ```
-fastapi-template/
-├── app/
-│   ├── api/
-│   ├── core/
-│   ├── models/
-│   ├── schemas/
-│   ├── services/
-│   └── main.py
-├── tests/
-├── .gitignore
-├── requirements.txt
+Fastapi_Template/
+├── Makefile
+├── README.md
 ├── README_en.md
-└── README.md
+├── app
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── api
+│   ├── config
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── default
+│   │       └── default.yml
+│   ├── core
+│   ├── factory.py
+│   ├── models
+│   ├── routers
+│   │   ├── __init__.py
+│   │   ├── heartbeat.py
+│   │   └── posts.py
+│   ├── schemas
+│   └── services
+├── docker
+│   ├── Dockerfile
+│   └── docker-compose.yml
+└── requirements.txt
 ```
 
-## Create Your Own Repository
 
-Click [Use this template](https://github.com/xmanlucian/Fastapi_Template/generate) to create your own repository.
 
 ## Contributing
 

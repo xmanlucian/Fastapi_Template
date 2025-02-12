@@ -10,6 +10,11 @@
 - **高性能**: 基于 FastAPI 的高性能特性
 - **易于扩展**: 模块化设计，方便扩展和维护
 
+
+## 创建自己的库
+
+点击 [使用此模版](https://github.com/xmanlucian/Fastapi_Template/generate) 创建自己的库。
+
 ## 安装
 
 ```bash
@@ -31,24 +36,35 @@ pip install -r requirements.txt
 ## 项目结构
 
 ```
-fastapi-template/
-├── app/
-│   ├── api/
-│   ├── core/
-│   ├── models/
-│   ├── schemas/
-│   ├── services/
-│   └── main.py
-├── tests/
-├── .gitignore
-├── requirements.txt
+Fastapi_Template/
+├── Makefile
+├── README.md
 ├── README_en.md
-└── README.md
+├── app
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── api
+│   ├── config
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── default
+│   │       └── default.yml
+│   ├── core
+│   ├── factory.py
+│   ├── models
+│   ├── routers
+│   │   ├── __init__.py
+│   │   ├── heartbeat.py
+│   │   └── posts.py
+│   ├── schemas
+│   └── services
+├── docker
+│   ├── Dockerfile
+│   └── docker-compose.yml
+└── requirements.txt
 ```
 
-## 创建自己的库
 
-点击 [使用此模版](https://github.com/xmanlucian/Fastapi_Template/generate) 创建自己的库。
 
 
 ## 贡献
