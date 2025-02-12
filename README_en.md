@@ -49,7 +49,7 @@ fastapi-template/
 
 ## Create Your Own Repository
 
-Click [Use this template](https://github.com/xmanlucian/fastapi-template/generate) to create your own repository.
+Click [Use this template](https://github.com/xmanlucian/Fastapi_Template/generate) to create your own repository.
 
 ## Contributing
 

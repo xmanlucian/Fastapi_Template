@@ -1,4 +1,4 @@
-# FastAPI Template Repository
+# FastAPI 模板库
 
 [English Version](./README_en.md)
 
@@ -48,7 +48,8 @@ fastapi-template/
 
 ## 创建自己的库
 
-点击 [使用此模版](https://github.com/xmanlucian/fastapi-template/generate) 创建自己的库。
+点击 [使用此模版](https://github.com/xmanlucian/Fastapi_Template/generate) 创建自己的库。
+
 
 ## 贡献
 
