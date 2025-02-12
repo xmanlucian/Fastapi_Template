@@ -18,6 +18,8 @@ docker-compose.yml
 env
 venv
 
-
 # PEP 582
 __pypackages__
+
+# Docker ignore file
+.dockerignore

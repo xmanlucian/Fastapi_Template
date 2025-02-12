@@ -5,7 +5,6 @@ from typing import AsyncGenerator
 
 from app.config.config import config
 
-
 __all__ = ["create_app"]
 
 try:
@@ -15,8 +14,6 @@ except ImportError:
 
 def create_app() -> FastAPI:
 
-
-
     async def app_startup(application: FastAPI) -> None:
         print("App starting up")
 
@@ -24,19 +21,17 @@ def create_app() -> FastAPI:
         print("App shutting down")
 
     @asynccontextmanager
-    async def liefspan(application: FastAPI) -> AsyncGenerator:
+    async def lifespan(application: FastAPI) -> AsyncGenerator:
         await app_startup(application)
         yield
         await app_shutdown(application)
 
-    app : FastAPI = FastAPI(
+    app: FastAPI = FastAPI(
         title=config.app.title,
         description=config.app.description,
         version=config.app.version,
-        lifespan=liefspan,
+        lifespan=lifespan,
     )
-
-
 
     for router in routers:
         app.include_router(router)

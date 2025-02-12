@@ -2,14 +2,12 @@ from dynaconf import Dynaconf
 import glob
 from pathlib import Path
 
-
 __all__ = ["config"]
 
 ROOT_DIR = Path(__file__).parent
 
 def read_config_files(file_path: str) -> list:
     return glob.glob(file_path, root_dir=ROOT_DIR)
-
 
 confs = read_config_files("default/*.yml")
 

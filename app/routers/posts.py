@@ -1,11 +1,11 @@
-from fastapi import APIRouter,status
+from fastapi import APIRouter, status
 from fastapi.responses import JSONResponse
 
 router = APIRouter(
     prefix="/posts",
-    )
+)
 
-@router.get("",status_code=status.HTTP_200_OK)
+@router.get("", status_code=status.HTTP_200_OK)
 async def get_posts() -> JSONResponse:
     return JSONResponse(
         content={
