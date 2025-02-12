@@ -1,7 +1,7 @@
 
 ## English Version
 
-[中文版](#fastapi-template-repository)
+[中文版](./README.md)
 
 This is a FastAPI template repository designed to help developers quickly set up projects based on FastAPI.
 

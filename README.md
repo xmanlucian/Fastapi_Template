@@ -1,6 +1,6 @@
 # FastAPI Template Repository
 
-[English Version](#english-version)
+[English Version](./README_en.md)
 
 这是一个 FastAPI 的模版库，旨在帮助开发者快速搭建基于 FastAPI 的项目。
 
